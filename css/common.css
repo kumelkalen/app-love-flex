@@ -14,3 +14,8 @@
 .text-uppercase {
   text-transform: uppercase;
 }
+
+/* contenedor Flexbox */
+.flex-container{
+	display: flex;
+}

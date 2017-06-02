@@ -1,7 +1,71 @@
 body {
-  margin: 0 auto;
-  font-size: 16px;
-  line-height: 1.71429;
-  background-color: #fff;
-  /* Enlaza la tipografia Open Sans */
+	margin: 0 auto;
+	font-size: 16px;
+	line-height: 1.71429;
+	background-color: #fff;
+	/* Enlaza la tipografia Open Sans */
+}
+
+
+/* Menú */
+.menu{
+	background-color: white;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+
+.menu .flex-container{
+	justify-content: flex-start;
+}
+
+.logo-container{
+	margin-left: auto;
+	margin-right: 20px;
+}
+
+.flex-container .logo{
+	width: 70px;
+	height: 70px;
+}
+
+/* Home Section */
+#home{
+	height:600px; /*Alto y Ancho definidos*/
+	margin-top: 45px;
+
+	background-image: url(../assets/images/bg-home.jpg); /* Imagen de fonde */
+	background-position: center; 
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;
+
+	justify-content: center;/*centramos horizontal y verticalmente*/
+	align-items: center;
+	flex-direction: column;
+
+	color: whitesmoke;
+}
+
+.text-home{
+	font-size: 2.4em; /*Tamaño de Letra*/
+}
+
+/* Services section */
+#services{
+	background-color: #F17C72;
+	text-align: center;
+	color: #fff;
+	padding: 70px;  
+}
+
+#services .flex-container{
+	justify-content: space-around; /*Distribución de objetos con espacio entre sí*/
+	flex-wrap: wrap; /*Más de una línea de ser necesaria*/
+}
+
+.box-services{
+	font-size: 1.2em; /* Tamaño de letra*/
+	font-weight: bold; /*Grosor de letra*/
 }
